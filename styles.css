@@ -1,3 +1,14 @@
 body {
   margin: 0;
 }
+
+.nav-ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.lock {
+  overflow: hidden;
+}
