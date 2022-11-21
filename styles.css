@@ -13,13 +13,13 @@ body {
   overflow: hidden;
 }
 
-/* .nav-btns button:nth-child(1) {
+.nav-btn button:nth-child(1) {
   border: none;
   outline: none;
   background-color: transparent;
-} 
+}
 
-.nav-btns button:nth-child(2) {
+/*.nav-btns button:nth-child(2) {
   outline: none;
   border: none;
   padding: 10px 25px;
@@ -72,7 +72,7 @@ h1 {
 .dropdown-content {
   border-radius: 20px;
   padding: 20px;
-  /* display: none; */
+  display: none;
   position: absolute;
   background-color: #fff;
   width: 120px;
