@@ -119,3 +119,15 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
+
+.dropdown-content img {
+  margin-right: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
