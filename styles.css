@@ -132,5 +132,9 @@ h1 {
   display: block;
 }
 
-@media {
+@media (max-width: 1200px) {
+  .hero {
+    max-width: 960px;
+    grid-template-columns: repeat(2, 400px);
+  }
 }
