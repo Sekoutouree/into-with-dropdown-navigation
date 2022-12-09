@@ -138,3 +138,10 @@ h1 {
     grid-template-columns: repeat(2, 400px);
   }
 }
+
+@media (max-width: 900px) {
+  .nav-btns,
+  .nav-ul {
+    display: none;
+  }
+}
