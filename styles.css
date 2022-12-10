@@ -144,4 +144,33 @@ h1 {
   .nav-ul {
     display: none;
   }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero {
+    margin: 50px;
+    max-width: 960px;
+    grid-template-columns: repeat(1, max(200px, 350px));
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .img-container {
+    grid-row: 1;
+  }
+
+  .img-container img {
+    content: url(/images/image-hero-mobile.png);
+    max-width: 100%;
+  }
 }
