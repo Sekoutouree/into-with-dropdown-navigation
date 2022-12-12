@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -58,10 +62,14 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 450px);
   grid-gap: 80px;
-  margin: 0 auto;
+  margin: 0 20px;
   max-width: 1200px;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .img-container {
@@ -132,7 +140,7 @@ h1 {
   display: block;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .hero {
     max-width: 960px;
     grid-template-columns: repeat(2, 400px);
@@ -172,5 +180,18 @@ h1 {
   .img-container img {
     content: url(/images/image-hero-mobile.png);
     max-width: 100%;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero button {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: ;
   }
 }
