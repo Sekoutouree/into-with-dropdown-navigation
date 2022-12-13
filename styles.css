@@ -223,4 +223,27 @@ p {
     width: 180px;
     height: 100%;
   }
+
+  .mobile-nav img {
+    text-align: right;
+  }
+
+  .show {
+    display: flex;
+  }
+
+  a {
+    margin: 0;
+  }
+
+  .mobile-nav-con {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .mobile-nav-con > * {
+    padding: 20px;
+  }
 }
